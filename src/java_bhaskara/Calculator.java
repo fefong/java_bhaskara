@@ -35,9 +35,9 @@ public class Calculator {
 
 		double x1 = getX1(a, b, c);
 		double x2 = getX2(a, b, c);
-		
+
 		Object[] args;
-		if (Double.isNaN(x1) || Double.isNaN(x1)) {
+		if (Double.isNaN(x1) || Double.isNaN(x2)) {
 			args = new Object[] { a, b, c, "There are no real roots.", "There are no real roots.", delta };
 			
 		} else {
